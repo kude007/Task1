@@ -1,4 +1,4 @@
-#About Git
+# About Git
 
 ## **1. Введение**
 
@@ -60,8 +60,9 @@ rm -rf .git
 
 
 ### **3.3 Добавляем файлы в репозиторий**
+	
+```git add```
 
-	```git add``` 
 позволяет подготовить файл к сохранению. Флаг ```--all``` подготовит сразу все файлы.
 
 С помощью _git add_ можно добавить в репозиторий текущую папку со всеми файлами. 
@@ -137,10 +138,13 @@ SSH использует пару ключей безопасности:
 
 ### **5.2 Инструкция по генерации SSH-ключа:**
 
-Подробная инструкция: [GitHub](https://docs.github.com/ru/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)"SSH-ключи"
+Подробная инструкция: [GitHub](https://docs.github.com/ru/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-Также нужно привязать SSH-ключ к GitHub: [GitHub](https://docs.github.com/ru/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)"SSH-ключи"
-	Подлинность SSH-ключа: [GitHub](https://clck.ru/3B9Z3W
+Также нужно привязать SSH-ключ к GitHub: 
+
+[GitHub](https://docs.github.com/ru/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)"SSH-ключи"
+
+Подлинность SSH-ключа: [GitHub](https://clck.ru/3B9Z3W
 
 
 
@@ -160,8 +164,8 @@ origin_ - стандартный псевдоним, с помощью кото�
 
 _Output_:
 
-``` origin	https://github.com/%Имя_аккаунта%/%Имя_проекта%.git (fetch)
-origin	https://github.com/%Имя_аккаунта%/%Имя_проекта%.git (push)```
+``` origin	https://github.com/%Имя_аккаунта%/%Имя_проекта%.git (fetch)```
+``` origin	https://github.com/%Имя_аккаунта%/%Имя_проекта%.git (push)```
 
 
 
